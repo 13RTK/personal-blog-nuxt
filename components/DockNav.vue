@@ -42,7 +42,8 @@ import DockSeparator from './ui/dock/DockSeparator.vue';
           <div class="animate-bounce dark:text-orange-400 -rotate-10 text-2xl font-black text-blue-600">Courses</div>
         </div>
         <Icon icon="material-symbols:book-2"
-          class="text-blue-500 dark:text-blue-200 text-4xl opacity-70 group-hover:text-orange-500 transition-opacity" />
+          class="text-blue-500 dark:text-blue-200 text-4xl opacity-70 group-hover:text-orange-500 transition-opacity"
+          @click="() => $router.push('/courses')" />
       </div>
     </DockIcon>
     <DockSeparator />
