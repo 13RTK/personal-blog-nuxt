@@ -7,7 +7,7 @@
       <Navbar />
     </nav>
 
-    <main class="mt-8 text-black dark:text-white">
+    <main class="mt-8 text-black dark:text-white dark:bg-gray-800">
       <NuxtPage />
     </main>
   </div>
