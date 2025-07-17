@@ -9,18 +9,18 @@
 </template>
 <script lang="ts" setup>
 import AnimateGrid from "../animate-grid/AnimateGrid.vue";
-import vue from "~/public/imgs/vue.svg";
-import react from "~/public/imgs/react.svg";
-import nodejs from "~/public/imgs/nodejs.svg";
-import git from "~/public/imgs/git.svg";
-import gitee from "~/public/imgs/gitee.svg";
-import supabase from "~/public/imgs/supabase.svg";
-import shadcn from "~/public/imgs/shadcn.svg";
-import materialui from "~/public/imgs/materialui.svg";
-import daisyui from "~/public/imgs/daisyui.svg";
-import shoelace from "~/public/imgs/shoelace.svg";
-import docker from "~/public/imgs/docker.svg";
-import more from "~/public/imgs/more.svg";
+import vue from "/imgs/vue.svg";
+import react from "/imgs/react.svg";
+import nodejs from "/imgs/nodejs.svg";
+import git from "/imgs/git.svg";
+import gitee from "/imgs/gitee.svg";
+import supabase from "/imgs/supabase.svg";
+import shadcn from "/imgs/shadcn.svg";
+import materialui from "/imgs/materialui.svg";
+import daisyui from "/imgs/daisyui.svg";
+import shoelace from "/imgs/shoelace.svg";
+import docker from "/imgs/docker.svg";
+import more from "/imgs/more.svg";
 
 const cards = [{
   logo: vue,
