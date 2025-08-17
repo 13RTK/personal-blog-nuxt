@@ -1,14 +1,14 @@
 <template>
   <div class="flex items-center justify-center my-2 w-full">
-    <AnimateGrid :cards>
+    <UiAnimateGrid :cards>
       <template #logo="{ logo }">
         <img class="logo mx-auto h-10 w-auto" :src="logo" />
       </template>
-    </AnimateGrid>
+    </UiAnimateGrid>
   </div>
 </template>
+
 <script lang="ts" setup>
-import AnimateGrid from "../animate-grid/AnimateGrid.vue";
 import vue from "/imgs/vue.svg";
 import react from "/imgs/react.svg";
 import nodejs from "/imgs/nodejs.svg";

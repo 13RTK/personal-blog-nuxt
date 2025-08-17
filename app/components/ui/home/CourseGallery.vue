@@ -1,11 +1,11 @@
 <template>
+  <!-- TODO: Component not used -->
   <div class="transition-none">
-    <ExpandableGallery :images="images" class="p-4" />
+    <UiExpandableGallery :images="images" class="p-4" />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ExpandableGallery from '../expandable-gallery/ExpandableGallery.vue';
 
 const images = [
   "https://images.unsplash.com/photo-1709884735646-897b57461d61?q=80&w=3628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
